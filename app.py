@@ -8,7 +8,7 @@ st.set_page_config(
 
 st.header(':blue[Balaji Kesavan]')
 
-personal_projects, corporate_work_experience, about_me = st.tabs(['Personal Projects', 'Corporate Work Experience', 'About Me'])
+personal_projects, skills, corporate_work_experience, about_me = st.tabs(['Personal Projects', 'Skills', 'Corporate Work Experience', 'About Me'])
 
 with personal_projects:
    
@@ -27,8 +27,37 @@ with personal_projects:
     st.subheader(':orange[PDF Merger]')
     st.write('[PDF Merger](https://pdf-merger.streamlit.app/) merges multiple PDF files into a single PDF file.')
 
+with skills:
+
+    st.subheader(':green[Technical Skills]')
+    with st.expander(':black[AI Application Development]'):
+        st.write('Leveraged technology from OpenAI, Streamlit, Supabase, Replicate, Snowflake, Azure, Bing Search, and more to build multiple AI applications')
+
+    row1_col1, row1_col2 = st.columns(2)
+    with row1_col1:
+        with st.expander(':black[Programming Languages]'):
+            st.write('Python, R, SQL')
+    with row1_col2:
+        with st.expander(':black[Machine Learning & Predictive Modeling]'):
+            st.write('Skilled in developing and implementing machine learning algorithms for predictive analytics')
+
+    st.subheader(':violet[Soft Skills]')
+    row2_col1, row2_col2 = st.columns(2)
+    with row2_col1:
+        with st.expander(':black[Team Leadership & Collaboration:]'):
+            st.write('Experienced in mentoring teams and fostering collaborative environments to achieve business objectives')
+        with st.expander(':black[Stakeholder Management]'):
+            st.write('Effective in engaging with stakeholders to translate technical details into actionable business insights')
+    with row2_col2:
+        with st.expander(':black[Strategic Planning & Execution]'):
+            st.write('Adept at strategic planning and execution with a focus on delivering results')
+        with st.expander(':black[Problem Solving & Innovation]'):
+            st.write('Strong problem-solving skills with a track record of innovative solutions in complex scenarios')
+
+
 with corporate_work_experience:
 
+    st.caption(':blue[11+ years of experience in Data Science and Analytics]')
     with st.expander(':green[Data Science at Nike]\n\nJune 2017 - Present'):
         st.markdown('''* Engaged with stakeholders to provide thought leadership and foster adoption of advanced analytics
 * Built a tool leveraging Machine Learning to simulate the orderpools of Nike’s centralized Distribution Centers 
