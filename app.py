@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(
   page_title='Balaji Kesavan', 
-  page_icon=':blue:', 
+  page_icon='🛠️', 
   layout='centered', 
   initial_sidebar_state='auto'
 )
