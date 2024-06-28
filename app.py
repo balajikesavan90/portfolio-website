@@ -58,11 +58,13 @@ with corporate_work_experience:
 
 with about_me:
     
-    left_col, right_col = st.columns([3,2])
+    st.subheader(':blue[About Me]')
 
+    left_col, right_col = st.columns([3,1])
     with left_col:
-        st.subheader(':blue[About Me]')
-        
+        st.write('''Hello and welcome to my website. My name is Balaji Kesavan, a tenacious and forward-thinking data science and analytics professional. My career trajectory has been enriched by significant roles across industry-leading organizations. The best place to get in touch with me is on [LinkedIn](https://www.linkedin.com/in/balaji-kesavan/)''')
+        st.write('''Over the last few years I am excited to see the advancements in Machine Learning and Artificial Intelligence. I am passionate about leveraging these technologies to solve complex problems. I am always looking for opportunities to collaborate on projects that are challenging and impactful.''')
+        st.write('''Check out my [GitHub](https://github.com/balajikesavan90)''')
 
     with right_col:
         st.image('balaji.jpg')
