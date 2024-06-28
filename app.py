@@ -1,35 +1,35 @@
 import streamlit as st
 st.set_page_config(
   page_title='Balaji Kesavan', 
-  page_icon='🛠️', 
+  page_icon='🤝', 
   layout='centered', 
   initial_sidebar_state='auto'
 )
 
 st.header(':blue[Balaji Kesavan]')
 
-personal_projects, skills, corporate_work_experience, about_me = st.tabs(['Personal Projects', 'Skills', 'Corporate Work Experience', 'About Me'])
+personal_projects, skills, corporate_work_experience, about_me = st.tabs(['🕰️Personal Projects', '🧩Skills', '💼 Work Experience', '📂About Me'])
 
 with personal_projects:
    
-    st.subheader(':green[Cover Letter Craft]')
+    st.subheader('📝:green[Cover Letter Craft]')
     st.write('Write a [cover letter](https://coverlettercraft.com/) that stands out from the crowd. This tool will help you craft a cover letter that is unique to you and the job you are applying for.')
 
     st.divider()
-    st.subheader(':grey[Arctic Analytics]')
+    st.subheader('❄️:grey[Arctic Analytics]')
     st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) can answer questions about your data, build charts and graphs from your data, and help document and debug your codebase. Arctic Analytics does not get access to your dataset.')
 
     st.divider()    
-    st.subheader(':violet[Supah Search]')
+    st.subheader('🔍:violet[Supah Search]')
     st.write('[Supah Search](https://supahsearch.com/) searches the internet and summarizes the results while giving you the sources and respecting robots.txt restrictions. The user can also perform semantic searches on their search history.')
 
     st.divider()
-    st.subheader(':orange[PDF Merger]')
+    st.subheader('📄:orange[PDF Merger]')
     st.write('[PDF Merger](https://pdf-merger.streamlit.app/) merges multiple PDF files into a single PDF file.')
 
 with skills:
 
-    st.subheader(':green[Technical Skills]')
+    st.subheader('🛠️:green[Technical Skills]')
     with st.expander(':black[AI Application Development]'):
         st.write('Leveraged technology from OpenAI, Streamlit, Supabase, Replicate, Snowflake, Azure, Bing Search, and more to build multiple AI applications')
 
@@ -41,7 +41,7 @@ with skills:
         with st.expander(':black[Machine Learning & Predictive Modeling]'):
             st.write('Skilled in developing and implementing machine learning algorithms for predictive analytics')
 
-    st.subheader(':violet[Soft Skills]')
+    st.subheader('✨:violet[Soft Skills]')
     row2_col1, row2_col2 = st.columns(2)
     with row2_col1:
         with st.expander(':black[Team Leadership & Collaboration:]'):
