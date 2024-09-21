@@ -19,6 +19,10 @@ with personal_projects:
     st.subheader('❄️:grey[Arctic Analytics]')
     st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) can answer questions about your data, build charts and graphs from your data, and help document and debug your codebase. Arctic Analytics does not get access to your dataset.')
 
+    st.divider()
+    st.subheader('📝:blue[The AI Pencil]')
+    st.write('[The AI Pencil](https://theaipencil.com/) is an AI-powered writing assistant that simplifies content creation. Input your topic and preferences to receive customized content tailored to your needs. Effortlessly transform your ideas into compelling writing.')
+
     st.divider()    
     st.subheader('🔍:violet[Supah Search]')
     st.write('[Supah Search](https://supahsearch.com/) searches the internet and summarizes the results while giving you the sources and respecting robots.txt restrictions. The user can also perform semantic searches on their search history.')
