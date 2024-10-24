@@ -16,6 +16,10 @@ with personal_projects:
     st.write('Write a [cover letter](https://coverlettercraft.com/) that stands out from the crowd. This tool will help you craft a cover letter that is unique to you and the job you are applying for.')
 
     st.divider()
+    st.subheader('🛠️:violet[Tool calling is all you need]')
+    st.write('This [Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
+
+    st.divider()
     st.subheader('❄️:grey[Arctic Analytics]')
     st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) can answer questions about your data, build charts and graphs from your data, and help document and debug your codebase. Arctic Analytics does not get access to your dataset.')
 
@@ -35,7 +39,7 @@ with skills:
 
     st.subheader('🛠️:green[Technical Skills]')
     with st.expander(':black[AI Application Development]'):
-        st.write('Leveraged technology from OpenAI, Streamlit, Supabase, Replicate, Snowflake, Azure, Bing Search, and more to build multiple AI applications')
+        st.write('Leveraged technology from OpenAI, Meta, Anthropic, Streamlit, Render, Supabase, Replicate, Snowflake, Azure, AWS, Bing Search, and more to build multiple AI applications')
 
     row1_col1, row1_col2 = st.columns(2)
     with row1_col1:
