@@ -17,7 +17,7 @@ with personal_projects:
 
     st.divider()
     st.subheader('🛠️:violet[Tool calling is all you need]')
-    st.write('This [Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
+    st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
 
     st.divider()
     st.subheader('❄️:grey[Arctic Analytics]')
