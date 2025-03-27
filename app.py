@@ -38,28 +38,28 @@ with personal_projects:
 with skills:
 
     st.subheader('🛠️:green[Technical Skills]')
-    with st.expander(':black[AI Application Development]'):
+    with st.expander(':blue[AI Application Development]'):
         st.write('Leveraged technology from OpenAI, Meta, Anthropic, Streamlit, Render, Supabase, Replicate, Snowflake, Azure, AWS, Bing Search, and more to build multiple AI applications')
 
     row1_col1, row1_col2 = st.columns(2)
     with row1_col1:
-        with st.expander(':black[Programming Languages]'):
+        with st.expander(':blue[Programming Languages]'):
             st.write('Python, R, SQL')
     with row1_col2:
-        with st.expander(':black[Machine Learning & Predictive Modeling]'):
+        with st.expander(':blue[Machine Learning & Predictive Modeling]'):
             st.write('Skilled in developing and implementing machine learning algorithms for predictive analytics')
 
     st.subheader('✨:violet[Soft Skills]')
     row2_col1, row2_col2 = st.columns(2)
     with row2_col1:
-        with st.expander(':black[Team Leadership & Collaboration:]'):
+        with st.expander(':blue[Team Leadership & Collaboration:]'):
             st.write('Experienced in mentoring teams and fostering collaborative environments to achieve business objectives')
-        with st.expander(':black[Stakeholder Management]'):
+        with st.expander(':blue[Stakeholder Management]'):
             st.write('Effective in engaging with stakeholders to translate technical details into actionable business insights')
     with row2_col2:
-        with st.expander(':black[Strategic Planning & Execution]'):
+        with st.expander(':blue[Strategic Planning & Execution]'):
             st.write('Adept at strategic planning and execution with a focus on delivering results')
-        with st.expander(':black[Problem Solving & Innovation]'):
+        with st.expander(':blue[Problem Solving & Innovation]'):
             st.write('Strong problem-solving skills with a track record of innovative solutions in complex scenarios')
 
 
