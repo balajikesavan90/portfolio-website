@@ -16,10 +16,6 @@ with personal_projects:
     st.write('Write a [cover letter](https://coverlettercraft.com/) that stands out from the crowd. This tool will help you craft a cover letter that is unique to you and the job you are applying for.')
 
     st.divider()
-    st.subheader('🛠️:violet[Tool calling is all you need]')
-    st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
-
-    st.divider()
     st.subheader('❄️:grey[Arctic Analytics]')
     st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) can answer questions about your data, build charts and graphs from your data, and help document and debug your codebase. Arctic Analytics does not get access to your dataset.')
 
@@ -30,6 +26,10 @@ with personal_projects:
     st.divider()    
     st.subheader('🔍:violet[Supah Search]')
     st.write('[Supah Search](https://supahsearch.com/) searches the internet and summarizes the results while giving you the sources and respecting robots.txt restrictions. The user can also perform semantic searches on their search history.')
+
+    st.divider()
+    st.subheader('🛠️:violet[Tool calling is all you need]')
+    st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
 
     st.divider()
     st.subheader('📄:orange[PDF Merger]')
