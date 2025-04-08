@@ -24,7 +24,7 @@ with personal_projects:
     st.write('[The AI Pencil](https://theaipencil.com/) is an AI-powered writing assistant that simplifies content creation. Input your topic and preferences to receive customized content tailored to your needs. Effortlessly transform your ideas into compelling writing.')
 
     st.divider()    
-    st.subheader('🔍:violet[Supah Search]')
+    st.subheader('🔍:orange[Supah Search]')
     st.write('[Supah Search](https://supahsearch.com/) searches the internet and summarizes the results while giving you the sources and respecting robots.txt restrictions. The user can also perform semantic searches on their search history.')
 
     st.divider()
@@ -32,7 +32,7 @@ with personal_projects:
     st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
 
     st.divider()
-    st.subheader('📄:orange[PDF Merger]')
+    st.subheader('📄PDF Merger')
     st.write('[PDF Merger](https://pdf-merger.streamlit.app/) merges multiple PDF files into a single PDF file.')
 
 with skills:
