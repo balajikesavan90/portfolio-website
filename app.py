@@ -21,6 +21,11 @@ with personal_projects:
     st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) can answer questions about your data, build charts and graphs from your data, and help document and debug your codebase. Arctic Analytics does not get access to your dataset.')
 
     st.divider()
+    st.subheader('🗒️:blue[Prep My Visit]')
+    st.caption('Runs on a free server, it might take a few seconds to load')
+    st.write('[prep-my-visit](https://prep-my-visit.streamlit.app/) is an AI-powered tool that helps patients prep for their doctor’s visit by capturing the key details of their symptom story. Through a few rounds of smart follow-up questions, it generates a clean summary and a structured clinical note focused on the “S” and “O” of SOAP—what the patient is experiencing and what’s observable—so the doctor can focus on what they do best: assessment and planning. Patients feel more prepared. Clinicians start with the signal, not the noise. It also outputs a FHIR R4–compliant JSON bundle that can be integrated with health care systems.')
+
+    st.divider()
     st.subheader('🛠️:grey[Tool calling is all you need]')
     st.caption('Runs on a free server, it might take a few seconds to load')
     st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
