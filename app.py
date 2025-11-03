@@ -18,7 +18,7 @@ with personal_projects:
     st.divider()
     st.subheader('❄️:violet[Arctic Analytics]')
     st.caption('Runs on a free server, it might take a few seconds to load')
-    st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) can answer questions about your data, build charts and graphs from your data, and help document and debug your codebase. Arctic Analytics does not get access to your dataset.')
+    st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) is a powerful AI-driven data analysis tool that can autonomously run code to analyze data and generate actionable insights. The agent can execute Python expressions for quick data queries, run complex multi-line functions for sophisticated data manipulations, and generate well-formatted visualizations using matplotlib, all while providing detailed reasoning about its analytical approach. This intelligent system can identify patterns, calculate KPIs, filter and aggregate data, and create comprehensive reports and charts to help users understand their data through automated analysis and interactive exploration.')
 
     st.divider()
     st.subheader('🗒️:blue[Prep My Visit]')
@@ -28,17 +28,17 @@ with personal_projects:
     st.divider()
     st.subheader('🛠️:grey[Tool calling is all you need]')
     st.caption('Runs on a free server, it might take a few seconds to load')
-    st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is a simple implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
+    st.write('[Tool calling is all you need](https://esports-manager-challenge-tool-calling-is-all-you-need.streamlit.app/) is an implementation of a multi-agent framework using the AWS Bedrock converse API, prompt engineering & tool calling to build Valorant teams and answer questions about Valorant players.')
 
     st.divider()    
     st.subheader('🔍:orange[Supah Search]')
     st.caption('Runs on a free server, it might take a few seconds to load')
-    st.write('[Supah Search](https://supahsearch.com/) searches the internet and summarizes the results while giving you the sources and respecting robots.txt restrictions. The user can also perform semantic searches on their search history.')
+    st.write('[Supah Search](https://supahsearch.com/) is a comprehensive AI-powered assistant that acts as an intelligent "force multiplier" for users, going far beyond traditional web searching to include web research, integration with MCP (Model Context Protocol) servers for specialized data access, on-demand image generation, location-based queries using user location data, and the ability to handle complex multi-faceted queries while delivering personalized, markdown-formatted responses with relevant media content and contextual follow-up questions for deeper exploration.')
 
     st.divider()
     st.subheader('📝:blue[The AI Pencil]')
     st.caption('Runs on a free server, it might take a few seconds to load')
-    st.write('[The AI Pencil](https://theaipencil.com/) is an AI-powered writing assistant that simplifies content creation. Input your topic and preferences to receive customized content tailored to your needs. Effortlessly transform your ideas into compelling writing.')
+    st.write("[The AI Pencil](https://theaipencil.com/) provides you with substantial content foundations that you can customize and complete with your personal touch. Rather than starting from scratch, you'll get well-developed content with clear indicators showing where to add your specific examples, insights, and expertise. This tool enhances and accelerates your writing process rather than replacing your creativity. It doesn't have internet access and works best when you add your unique perspective to the foundation it provides. Use The AI Pencil to get a strong head start on your writing projects.")
 
     st.divider()
     st.subheader('📄PDF Merger')
