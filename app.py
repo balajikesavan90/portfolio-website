@@ -33,7 +33,7 @@ with personal_projects:
     st.divider()    
     st.subheader('🔍:orange[Supah Search]')
     st.caption('Runs on a free server, it might take a few seconds to load')
-    st.write('[Supah Search](https://supahsearch.com/) is a comprehensive AI-powered assistant that acts as an intelligent "force multiplier" for users, going far beyond traditional web searching to include web research, integration with MCP (Model Context Protocol) servers for specialized data access, on-demand image generation, location-based queries using user location data, and the ability to handle complex multi-faceted queries while delivering personalized, markdown-formatted responses with relevant media content and contextual follow-up questions for deeper exploration.')
+    st.write('[Supah Search](https://supahsearch.com/) is a comprehensive AI-powered assistant that acts as an intelligent "force multiplier" for users. It goes far beyond traditional web searching to include web research, integration with MCP (Model Context Protocol) servers for specialized data access, on-demand image generation, and location-based queries. The tool handles complex multi-faceted queries while delivering personalized, markdown-formatted responses with relevant media content and contextual follow-up questions for deeper exploration.')
 
     st.divider()
     st.subheader('📝:blue[The AI Pencil]')
