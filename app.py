@@ -16,9 +16,9 @@ with personal_projects:
     st.write('Write a [cover letter](https://coverlettercraft.com/) that stands out from the crowd. This tool will help you craft a cover letter that is unique to you and the job you are applying for.')
 
     st.divider()
-    st.subheader('❄️:violet[Arctic Analytics]')
+    st.subheader('📊:violet[Python Data Analysis Agent]')
     st.caption('Runs on a free server, it might take a few seconds to load')
-    st.write('[Arctic Analytics](https://arctic-analytics.streamlit.app/) is a powerful AI-driven data analysis tool that can autonomously run code to analyze data and generate actionable insights. The agent can execute Python expressions for quick data queries, run complex multi-line functions for sophisticated data manipulations, and generate well-formatted visualizations using matplotlib, all while providing detailed reasoning about its analytical approach. This intelligent system can identify patterns, calculate KPIs, filter and aggregate data, and create comprehensive reports and charts to help users understand their data through automated analysis and interactive exploration.')
+    st.write('[Python Data Analysis Agent](https://python-data-analysis-agent.streamlit.app/) is an open-source, metadata-aware workspace for inspectable AI-assisted analysis of structured data. Upload CSVs, review and edit data dictionaries, inspect generated Python and tool calls, and export analysis traces and research bundles for downstream review. Explore the [live demo](https://python-data-analysis-agent.streamlit.app/), browse the [source code](https://github.com/balajikesavan90/python-data-analysis-agent), or install it from [PyPI](https://pypi.org/project/python-data-analysis-agent/) with `pip install python-data-analysis-agent`.')
 
     st.divider()
     st.subheader('🗒️:blue[Prep My Visit]')
